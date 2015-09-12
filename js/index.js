@@ -4,7 +4,7 @@ function initialize() {
     var mapCanvas = document.getElementById('map');
     var mapOptions = {
         center: new google.maps.LatLng(47.139495, 9.524542),
-        zoom: 12,
+        zoom: 15,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     }
     var map = new google.maps.Map(mapCanvas, mapOptions);
@@ -20,6 +20,16 @@ function initialize() {
         position: {lat: 47.14201, lng: 9.54455},
         map: map,
         title: 'Gaflei'
+    });
+
+    $('#click_Vaduz').click(function() {
+        //map.setZoom(15);
+        map.panTo({lat: 47.139495, lng: 9.524542});
+    });
+
+    $('#click_Gaflei').click(function() {
+        //map.setZoom(15);
+        map.panTo({lat: 47.14201, lng: 9.54455});
     });
 
     /* Tab click functions */
