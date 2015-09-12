@@ -4,10 +4,23 @@ function initialize() {
     var mapCanvas = document.getElementById('map');
     var mapOptions = {
         center: new google.maps.LatLng(47.139495, 9.524542),
-        zoom: 10,
+        zoom: 12,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     }
     var map = new google.maps.Map(mapCanvas, mapOptions);
+
+    /* Google Map Static Marker */
+    var schlossVaduz = new google.maps.Marker({
+        position: {lat: 47.139495, lng: 9.524542},
+        map: map,
+        title: 'Schloss Vaduz'
+    });
+
+    var gaflei = new google.maps.Marker({
+        position: {lat: 47.14201, lng: 9.54455},
+        map: map,
+        title: 'Gaflei'
+    });
 
     /* Tab click functions */
     $('#mp_ui_LeftCLickerTab').click(function() {
