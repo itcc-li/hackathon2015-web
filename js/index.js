@@ -9,15 +9,5 @@ function initialize() {
     }
     var map = new google.maps.Map(mapCanvas, mapOptions);
 
-    /* LeftSlider */
-    $('#mp_ui_RightIcon').click(function() {
-        $('#mp_ui_LeftList').slideToggle();
-        $('#mp_ui_RightIcon').toggle();
-    });
-
-    $('#mp_ui_BackIcon').click(function() {
-        $('#mp_ui_LeftList').slideToggle();
-        $('#mp_ui_RightIcon').toggle();
-    });
 }
 google.maps.event.addDomListener(window, 'load', initialize);
