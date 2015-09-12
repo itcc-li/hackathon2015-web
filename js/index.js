@@ -9,5 +9,21 @@ function initialize() {
     }
     var map = new google.maps.Map(mapCanvas, mapOptions);
 
+    /* Tab click functions */
+    $('#mp_ui_LeftCLickerTab').click(function() {
+        $('#mp_ui_RightTab').fadeOut();
+        $('#mp_ui_RightCLickerTab').css('border-bottom' , 'none');
+
+        $('#mp_ui_LeftTab').delay(500).fadeIn();
+        $('#mp_ui_LeftCLickerTab').css('border-bottom' , '3px solid #507512');
+    });
+
+    $('#mp_ui_RightCLickerTab').click(function() {
+        $('#mp_ui_LeftTab').fadeOut();
+        $('#mp_ui_LeftCLickerTab').css('border-bottom' , 'none');
+
+        $('#mp_ui_RightTab').delay(500).fadeIn();
+        $('#mp_ui_RightCLickerTab').css('border-bottom' , '3px solid #507512');
+    });
 }
 google.maps.event.addDomListener(window, 'load', initialize);

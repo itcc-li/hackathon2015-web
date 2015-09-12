@@ -7,7 +7,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js"></script>
         <script type="text/javascript" src="js/index.js"></script>
-        <title>-</title>
+        <title>Thisthepagetitle</title>
     </head>
     <body>
         <section id="mp_ui_LeftList">
@@ -17,21 +17,21 @@
                     <span>Thisisalongtitle</span>
                 </section>
                 <section class="mp_ui_Tabs">
-                    <div class="mp_ui_Tab">
+                    <div class="mp_ui_Tab" id="mp_ui_LeftCLickerTab">
                         <span>Close POIs</span>
                     </div>
-                    <div class="mp_ui_Tab">
+                    <div class="mp_ui_Tab" id="mp_ui_RightCLickerTab">
                         <span>My POIs</span>
                     </div>
                 </section>
             </div>
+            <!-- The Left tab -> Close POIs -->
             <section id="mp_ui_LeftTab">
                 <div class="mp_ui_LeftListContent">
-                    <!--- Card 1 --->
                     <div class="mp_ui_GoogleCard">
                         <img src="img/image_schloss.jpg" alt="Card Image" height="180" width="300">
                         <div class="mp_ui_LeftListCardText">
-                            <h1>Title</h1>
+                            <h1>A Close POI</h1>
                             <p>
                                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
                             </p>
@@ -39,8 +39,19 @@
                     </div>
                 </div>
             </section>
+            <!-- The Right tab - My POIs -->
             <section id="mp_ui_RightTab">
-
+                <div class="mp_ui_LeftListContent">
+                    <div class="mp_ui_GoogleCard">
+                        <img src="img/image_schloss.jpg" alt="Card Image" height="180" width="300">
+                        <div class="mp_ui_LeftListCardText">
+                            <h1>A Visited POI</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </section>
         </section>
 
