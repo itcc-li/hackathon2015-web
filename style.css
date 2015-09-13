@@ -14,6 +14,7 @@ header { padding-top: 50px; }
 #get-it-container { width: 400px; height: 60px; border: 2px solid #157293; background: #FFF; }
 #get-it-container span { letter-spacing: 6px; color: #157293; font-weight: 300; line-height: 60px; }
 #get-it-container img { line-height: 60px; vertical-align: text-bottom; margin-left: 24px; }
+#get-it-container a { text-decoration: none; }
 
 .center { margin: 0 auto; text-align: center; }
 
