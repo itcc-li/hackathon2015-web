@@ -30,7 +30,7 @@ header { padding-top: 50px; }
 	-moz-box-sizing: border-box;
 	-o-box-sizing: border-box; }
 #close-page-content-btn { display: block; position: absolute; right: 0; top: 0; text-decoration: none; color: #fff; height: 48px; line-height: 48px; width: 48px; text-align: center; background: #7BB51C; }
-#scrollbox { overflow-y: scroll; height: 424px; width: 100%; padding-right: 64px; }
+#scrollbox { overflow-y: scroll; height: 296px; width: 100%; padding-right: 64px; }
 #get-it-wrapper { width: 100%; position: absolute; bottom: 100px; }
 
 footer { font-size: 10px; position: absolute; bottom: 0; width: 100%; background: #FFF; height: 50px; line-height: 50px; font-weight: 800; }
