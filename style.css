@@ -34,7 +34,7 @@ header { padding-top: 50px; }
 #scrollbox { overflow-y: scroll; height: 182px; width: 100%; padding-right: 64px; }
 #get-it-wrapper { width: 100%; position: absolute; bottom: 100px; }
 
-footer { font-size: 10px; position: absolute; bottom: 0; width: 100%; background: #FFF; height: 50px; line-height: 50px; font-weight: 800; }
+footer { z-index: 1; font-size: 10px; position: absolute; bottom: 0; width: 100%; background: #FFF; height: 50px; line-height: 50px; font-weight: 800; }
 footer div { letter-spacing: 2px; }
 #footer-text, #footer-links, #footer-links > div { display: inline-block; }
 #footer-links { float: right; margin-right: 50px; }
