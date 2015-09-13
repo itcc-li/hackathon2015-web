@@ -25,9 +25,9 @@ header { padding-top: 50px; }
 .table { height: 100%; width: 100%; display: table; }
 .table-cell { display: table-cell; text-align: center; vertical-align: middle; }
 
-#page-content-box { text-align: left; line-height: 28px; color: #666; font-size: 12px; padding: 64px; position: relative; display: inline-block; height: 360px; max-width: 420px; background: rgba(255, 255, 255, .9); }
+#page-content-box { overflow: hidden; text-align: left; line-height: 28px; color: #666; font-size: 12px; padding: 64px; position: relative; display: inline-block; height: 360px; max-width: 420px; background: rgba(255, 255, 255, .9); }
 #close-page-content-btn { display: block; position: absolute; right: 0; top: 0; text-decoration: none; color: #fff; height: 48px; line-height: 48px; width: 48px; text-align: center; background: #7BB51C; }
-#scrollbox { overflow-y: auto; }
+#scrollbox { overflow-y: scroll; height: 424px; width: 100%; padding-right: 64px; }
 #get-it-wrapper { width: 100%; position: absolute; bottom: 100px; }
 
 footer { font-size: 10px; position: absolute; bottom: 0; width: 100%; background: #FFF; height: 50px; line-height: 50px; font-weight: 800; }
