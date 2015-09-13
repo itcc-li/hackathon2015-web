@@ -50,4 +50,5 @@ a[href^="https://maps.google.com/maps"] { display: none !important }
 	#footer-links div { margin-left: 20px; float: left; }
 	#apple-icon { float: right; margin-right: 24px; }
 	#android-icon { float: left; }
+	#page-content-box { width: 100%; }
 }
